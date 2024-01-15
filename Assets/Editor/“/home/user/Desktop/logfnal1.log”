@@ -1,0 +1,68 @@
+Unity Editor version:    2022.3.17f1 (4fc78088f837)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #14~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon Nov 20 18:15:30 UTC 2
+Kernel version:          6.5.0-14-generic
+Architecture:            x86_64
+Available memory:        15617 MB
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to the License Client on channel: "LicenseClient-user" at "2024-01-15T05:10:28.381712Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.15.0+66d4389
+  Session Id:              3613c67bc5f740568cc6c6024345a98f
+  Correlation Id:          82e526813067a697f7a0a15ad972119e
+  External correlation Id: 7230759439087031168
+  Machine Id:              KTc0Z9/CsIBAVryZyYPGhYbqtWw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.01s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to the License Notification on channel: "LicenseClient-user-notifications" at "2024-01-15T05:10:28.393126Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+[Licensing::Client] Successfully resolved entitlements
+[Licensing::Module] Serial number assigned to: "F4-4ZXX-6CXX-JWP6-Q8JE-XXXX"
+Pro License: NO
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+/home/user/Unity/Hub/Editor/2022.3.17f1/Editor/Unity
+-batchmode
+-quit
+-projectPath
+“/home/user/Desktop/unity1”
+-buildTarget
+Android
+-executeMethod
+AndroidBuilder.ProductionBuild
+-logfile
+“/home/user/Desktop/logfnal1.log”
+Couldn't set project path to: /home/user/Desktop/unity1/Assets/Editor/“/home/user/Desktop/unity1”
+[Package Manager] Server::Kill -- Server was shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 7
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 4.6 KB
+  Peak Large allocation bytes 0 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1705295431655,"processId":10012,"allocatedMemory":92786,"memoryLabels":[{"Default":746},{"Permanent":53},{"Thread":64},{"Manager":7042},{"GfxDevice":408},{"Serialization":52},{"BaseObject":12376},{"String":5641},{"DynamicArray":640},{"HashMap":17034},{"Utility":1024},{"GI":2944},{"CloudService":168},{"VR":80},{"EditorUtility":3296},{"RestService":1022},{"License":3624},{"UnityConnect":25496},{"Collab":25},{"LocalIPC":212},{"ProfilerEditor":10839}]}
